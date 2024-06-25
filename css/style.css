@@ -55,3 +55,57 @@ body{
         letter-spacing: 1px;
         text-transform: uppercase;
     }
+
+    /* Types-section */
+
+
+    .types-section {
+    background-color: #e5e5e5;
+    padding: 50px;
+    text-align: center;
+    }
+
+    .types-h2{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1.1;
+        text-align: center;
+
+    }
+
+    .types-list{
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        grid-template-columns: repeat(3, calc(50% - 10px));
+        grid-gap: 20px;
+        display: grid;
+        width: 980px;
+
+    }
+    
+    .types-item {
+        background-color: #fff;
+    }
+
+    .types-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .types-h4{
+        font-weight: 700;
+        font-size: 24px;
+        margin: 5px;
+    } 
+
+    .types-p{
+        font-size: 16px;
+   
+    }
+
+    .types-button {
+       margin: 20px;
+    }
+
+
