@@ -167,3 +167,72 @@ body{
         margin: 50px auto 0;
         padding: 15px 50px 15px 50px;
     }
+
+
+    /* Contacts-section */
+
+    .contacts-section{
+        background-color: #ffffff;
+    }
+
+    .contacts-h2{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1.2;
+        text-align: center;
+        margin: 30px;
+    }
+
+    .contact-form-position{
+        display: grid;
+        place-items: center;
+       
+    }
+
+    .contact-form-container{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        width: 500px;
+        background-color:#e5e5e5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-form-h2{
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 15px; 
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .contact-form-label{
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: start;
+    }
+    
+    .contact-form input {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+    .contact-form button {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .contact-form button:hover {
+        background-color: #ef3907;
+    }
+    
