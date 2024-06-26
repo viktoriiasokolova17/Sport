@@ -73,7 +73,7 @@ body{
 
     }
 
-    .types-list{
+    .types-list{ 
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: auto;
@@ -109,3 +109,61 @@ body{
     }
 
 
+    /* Membership-options-section */
+    .membership-options-section{
+        background-color: #e5e5e5;
+        text-align: center;
+    }
+
+    .membership-h2{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1.1;
+        text-align: center;
+
+    }
+
+    .membership-p{
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.8;
+    }
+
+    .membership-list{ 
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        grid-template-columns: repeat(3, calc(50% - 10px));
+        grid-gap: 20px;
+        display: grid;
+        width: 980px;
+
+    }
+    
+    .membership-item {
+        background-color: #ffffff;
+    }
+
+    .membership-h3{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.2;
+        margin: 20px;
+        color: #111111;
+    }
+
+    .membership-p{
+        font-size: 20px;
+        text-align: center;
+        margin: 50px 0 0;
+        line-height: 2;
+    }
+
+    .membership-btn{
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 50px auto 0;
+        padding: 15px 50px 15px 50px;
+    }
