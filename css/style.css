@@ -113,6 +113,7 @@ body{
     .membership-options-section{
         background-color: #e5e5e5;
         text-align: center;
+        padding: 50px;
     }
 
     .membership-h2{
@@ -142,6 +143,7 @@ body{
     
     .membership-item {
         background-color: #ffffff;
+        padding: 20px;
     }
 
     .membership-h3{
